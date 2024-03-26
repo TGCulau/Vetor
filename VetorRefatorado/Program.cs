@@ -95,7 +95,7 @@ namespace VetorRefatorado
             Console.WriteLine("###                                                                                ###");
             Console.WriteLine("###                                   Atividade 4                                  ###");
             Console.WriteLine("###                                                                                ###");
-            Console.WriteLine("###                        Converter Fahrenheit em Celsius                         ###");
+            Console.WriteLine("###                   Arrays, Funções e Programação Estruturada                    ###");
             Console.WriteLine("###                                                                                ###");
             Console.WriteLine("######################################################################################");
         }
@@ -239,7 +239,7 @@ namespace VetorRefatorado
                 Console.Write($"{num[i]}  ");
             }
 
-            Console.Write($"\nQual numero deseja apagar? ");
+            Console.Write($"\n\nQual numero deseja apagar? ");
             int aux2 = Convert.ToInt32(Console.ReadLine());
             int aux3;
             for (int i = 0; i < tamanhodovetor; i++)
